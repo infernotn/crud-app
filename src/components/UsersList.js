@@ -7,8 +7,9 @@ Button
  } from 'reactstrap'; 
  const UsersList = () => {
     return (
-        <>
-            <ListGroup style={{maxWidth:"80%"}} className="mt-2 m-auto d-flex justify-content-center flex-direction-column">
+        <div style={{ maxWidth:"60%"}} className="mt-2 m-auto n" >
+            <h1   className='text-center font-weight-bold '> My team menbers </h1>
+            <ListGroup >
                 <ListGroupItem className="mt-2 d-flex " >
                     <strong className="ms-1"> User 1</strong>
                     <div className="ms-auto">
@@ -29,7 +30,7 @@ Button
 
 
             </ListGroup>
-        </>
+        </div>
     )
 }
 export default UsersList;
