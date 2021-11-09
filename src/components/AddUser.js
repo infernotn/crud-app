@@ -10,9 +10,9 @@ import{
 
  const AddUser = () => {
     return (
-        <div>
-            <h1>Add User</h1>
-            <Form>
+        <div >
+       
+            <Form >
                 <FormGroup>
                     <Label>Name :</Label>
                     <Input type='text' placeholder="Enter your name"></Input>
